@@ -12,4 +12,8 @@
   :target-path "target/%s"
 
   :profiles {:uberjar {:aot :all
-                       :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
+                       :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}
+              
+             :dev [{:plugins [[jonase/eastwood "0.3.13"]]
+                    :eastwood {:exclude-linters [:constant-test]
+                               :include-linters [:deprecations]}}]})
