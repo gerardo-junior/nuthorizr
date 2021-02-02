@@ -53,7 +53,7 @@ docker-compose run nuthorizr lein run < operations_demo
 lein run < operations_demo
 ```
 
-## You can buil
+## You can build
 ```bash
 lein uberjar 
 java -jar ./target/uberjar/nuthorizr-0.0.1-SNAPSHOT-standalone.jar < operations_demo 
