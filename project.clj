@@ -1,11 +1,13 @@
 (defproject nuthorizr "0.0.1-SNAPSHOT"
 
-  :description "Authorizer with json over stdin"
+  :description "A Authorizer app with json over stdin"
 
   :license {:name "MIT License"
             :url "https://opensource.org/licenses/MIT"}
 
-  :dependencies [[org.clojure/clojure "1.10.1"]]
+  :dependencies [[org.clojure/clojure "1.10.1"]
+                 [cheshire "5.6.1"]
+                 [clj-time "0.15.2"]]
   
   :main ^:skip-aot nuthorizr.core
 

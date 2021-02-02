@@ -12,3 +12,6 @@ pom.xml.asc
 .hgignore
 .hg/
 .eastwood
+.calva 
+.clj-kondo
+.lsp
