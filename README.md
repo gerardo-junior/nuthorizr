@@ -1,6 +1,6 @@
 # Nuthorizr
 
-A Authorizer app with json over stdin
+A Authorizer app with json in stdin
 
 ## Come on, do your tests
 
