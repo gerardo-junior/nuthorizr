@@ -1,5 +1,5 @@
 (ns nuthorizr.config-test
-  (:require [clojure.test :refer [deftest testing is]]
+  (:require [clojure.test     :refer [deftest testing is]]
             [nuthorizr.config :refer :all]))
 
 
