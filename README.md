@@ -37,7 +37,7 @@ lein test
 ```
 
 ## How to do exec
-```
+```bash
 cat operations_demo
 {"account": {"active-card": true, "available-limit": 2000}}
 {"transaction": {"merchant": "Habbibs", "amount": 20, "time":"2020-01-01T01:01:00.000Z"}}
@@ -51,6 +51,12 @@ cat operations_demo
 
 docker-compose run nuthorizr lein run < operations_demo
 lein run < operations_demo
+```
+
+## You can buil
+```bash
+lein uberjar 
+java -jar ./target/uberjar/nuthorizr-0.0.1-SNAPSHOT-standalone.jar < operations_demo 
 ```
 
 ### License  
