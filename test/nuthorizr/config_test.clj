@@ -2,7 +2,6 @@
   (:require [clojure.test     :refer [deftest testing is]]
             [nuthorizr.config :refer :all]))
 
-
 (deftest test-if-max-time-of-similar-transactions-config-is-time-instance
   (testing "Testing whether the max time setting for similar transactions is an instance of time"
     (is (instance? org.joda.time.ReadablePeriod (:interval (:doubled-transaction transaction-rules))))))

@@ -1,7 +1,6 @@
 (ns nuthorizr.domains.account-test
   (:require [clojure.test              :refer :all]
-            [nuthorizr.domains.account :refer :all]
-            [clojure.pprint :as pprint]))
+            [nuthorizr.domains.account :refer :all]))
 
 
 (deftest test-if-atom-is-being-defined
